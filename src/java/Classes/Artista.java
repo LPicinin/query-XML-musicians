@@ -185,7 +185,7 @@ public class Artista
         //content + "</div>\n"
         html += "    </div></div>\n";
         html += "<div class=\"row\">\n"
-                + "        <div class=\"content col-md-11\">similares: <br> <div class=\"list-group\">";
+                + "        <div class=\"content col-md-11\"><label>Similares:</label> <br> <div class=\"list-group\">";
         for (Similar similar : similares)
         {
             html += "<a href=\""+similar.getUrl()+"\" target=\"_blank\" class=\"list-group-item list-group-item-action\">"+similar.getNome()+"</a>";

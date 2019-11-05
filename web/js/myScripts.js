@@ -8,7 +8,8 @@ function evtEnviaForm()
 {
     event.preventDefault(); // evita refresh da tela
     let frm = $("#formulario");    
-    jQuery.ajax({
+    jQuery.ajax(
+    {
         type: "POST",
         url: "Consulta",
         data: frm.serialize(),
